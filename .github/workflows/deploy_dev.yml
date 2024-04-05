@@ -3,7 +3,7 @@ name: Deploy develop when PR is merged
 on: 
   workflow_dispatch:
   pull_request:   
-    types: [merge]
+    types: [completed]
     branches:
       - develop
 
